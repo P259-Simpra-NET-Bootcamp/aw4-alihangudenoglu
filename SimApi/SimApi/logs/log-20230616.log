@@ -1,0 +1,1458 @@
+2023-06-16 02:02:09.558 [INF] Application is starting...
+2023-06-16 02:03:17.462 [INF] Application is starting...
+2023-06-16 02:04:12.614 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:04:12.618 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:04:12.620 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:04:12.944 [FTL] Path=/simapi/v1/Category || Method=POST || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:04:13.018 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id bc19cd6f-539c-44a9-842c-ae236c638b68 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:04:13.256 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id bc19cd6f-539c-44a9-842c-ae236c638b68 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:04:13.273 [ERR] Connection id "0HMRDUIR2LFLG", Request id "0HMRDUIR2LFLG:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id bc19cd6f-539c-44a9-842c-ae236c638b68 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:06:01.381 [INF] Application is starting...
+2023-06-16 02:06:27.163 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:06:27.167 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:06:27.169 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:06:27.410 [FTL] Path=/simapi/v1/Category || Method=POST || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:06:27.474 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 16be296f-d92f-430c-a4ba-7fee1ef3683c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:06:27.545 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 16be296f-d92f-430c-a4ba-7fee1ef3683c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:06:27.557 [ERR] Connection id "0HMRDUKBVE92B", Request id "0HMRDUKBVE92B:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 16be296f-d92f-430c-a4ba-7fee1ef3683c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:07:14.654 [INF] Application is starting...
+2023-06-16 02:07:27.259 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:07:27.264 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:07:27.266 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:07:27.515 [FTL] Path=/simapi/v1/Category || Method=POST || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:07:27.569 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 4843549c-7a8a-46c4-8e70-63d7ba7b5a07 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:07:27.633 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 4843549c-7a8a-46c4-8e70-63d7ba7b5a07 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:07:27.645 [ERR] Connection id "0HMRDUL1PTSH6", Request id "0HMRDUL1PTSH6:00000009": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 4843549c-7a8a-46c4-8e70-63d7ba7b5a07 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:09:15.785 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:09:15.787 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:09:15.789 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:09:17.086 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:09:17.090 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:09:18.996 [INF] -------------Request-Begin------------
+2023-06-16 02:09:19.000 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+Request Body: 
+2023-06-16 02:09:19.003 [INF] 
+
+2023-06-16 02:09:19.005 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 02:09:19.007 [INF] -------------Request-End------------
+2023-06-16 02:09:41.661 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:09:41.665 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:09:41.666 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:09:41.727 [FTL] Path=/simapi/v1/Category || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:09:41.784 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id de483dec-b0a0-4113-ad1d-c2eaa5d955ab and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:41.826 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'RecyclableMemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:41.834 [ERR] Connection id "0HMRDUL1PTSH7", Request id "0HMRDUL1PTSH7:00000003": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id de483dec-b0a0-4113-ad1d-c2eaa5d955ab and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:09:43.645 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:09:43.646 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:09:43.648 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:09:43.697 [FTL] Path=/simapi/v1/Category || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:09:43.744 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d2a0326b-47f4-4b2a-9736-4ec1af23158e and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:43.755 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'RecyclableMemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:43.761 [ERR] Connection id "0HMRDUL1PTSH7", Request id "0HMRDUL1PTSH7:00000005": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id d2a0326b-47f4-4b2a-9736-4ec1af23158e and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:09:44.485 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:09:44.487 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:09:44.491 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:09:44.543 [FTL] Path=/simapi/v1/Category || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:09:44.593 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3b4badd7-3e08-4006-b215-5b2679fdde6a and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:44.604 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'RecyclableMemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:44.611 [ERR] Connection id "0HMRDUL1PTSH7", Request id "0HMRDUL1PTSH7:00000007": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3b4badd7-3e08-4006-b215-5b2679fdde6a and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:09:45.507 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:09:45.512 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:09:45.513 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:09:45.571 [FTL] Path=/simapi/v1/Category || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.Category.CategoryController'.
+2023-06-16 02:09:45.622 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 97aa1f90-6ef5-4e68-925f-ebeec3437482 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:45.633 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'RecyclableMemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:09:45.638 [ERR] Connection id "0HMRDUL1PTSH7", Request id "0HMRDUL1PTSH7:00000009": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 97aa1f90-6ef5-4e68-925f-ebeec3437482 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.ExecuteWithFilterAsync(IHttpSocketAdapter injectScriptSocket, String requestId, HttpContext httpContext)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:10:17.666 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:10:17.668 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:10:17.669 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:10:17.728 [INF] -------------Request-Begin------------
+2023-06-16 02:10:17.730 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+Request Body: 
+2023-06-16 02:10:17.732 [INF] 
+
+2023-06-16 02:10:17.735 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 02:10:17.737 [INF] -------------Request-End------------
+2023-06-16 02:10:17.838 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:10:17.860 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:10:17.863 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:10:17.865 [INF] -------------Request-Begin------------
+2023-06-16 02:10:17.867 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /favicon.ico 
+QueryString:  
+Request Body: 
+2023-06-16 02:10:17.869 [INF] 
+
+2023-06-16 02:10:17.872 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /favicon.ico 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-06-16 02:10:17.875 [INF] -------------Request-End------------
+2023-06-16 02:12:00.413 [INF] Application is starting...
+2023-06-16 02:12:22.800 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:12:22.806 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:12:22.808 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:12:23.058 [FTL] Path=/simapi/v1/Category || Method=POST || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.CategoryController'.
+2023-06-16 02:12:23.118 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9aa166d3-1f8c-450b-b09d-2d2b4bc1945c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:12:23.188 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9aa166d3-1f8c-450b-b09d-2d2b4bc1945c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:12:23.207 [ERR] Connection id "0HMRDUNMUP61S", Request id "0HMRDUNMUP61S:00000009": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9aa166d3-1f8c-450b-b09d-2d2b4bc1945c and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:22:00.542 [INF] Application is starting...
+2023-06-16 02:22:34.468 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:22:34.473 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:22:34.475 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:22:34.776 [FTL] Path=/simapi/v1/Category || Method=POST || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.CategoryController'.
+2023-06-16 02:22:34.838 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2093e57a-717d-4253-b727-8c765909f649 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:22:35.004 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2093e57a-717d-4253-b727-8c765909f649 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:22:35.017 [ERR] Connection id "0HMRDUT9PG3T1", Request id "0HMRDUT9PG3T1:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 2093e57a-717d-4253-b727-8c765909f649 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:22:47.680 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:22:47.682 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:22:47.683 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:22:47.733 [FTL] Path=/simapi/v1/Category || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.CategoryController'.
+2023-06-16 02:22:47.778 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1a2ee8d9-5944-4463-975c-564f543cdf1f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:22:47.787 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1a2ee8d9-5944-4463-975c-564f543cdf1f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:22:47.792 [ERR] Connection id "0HMRDUT9PG3T2", Request id "0HMRDUT9PG3T2:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 1a2ee8d9-5944-4463-975c-564f543cdf1f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:23:48.274 [INF] Application is starting...
+2023-06-16 02:24:24.314 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:24:24.317 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:24:24.319 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:24:24.540 [FTL] Path=/simapi/v1/Deneme || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.DenemeController'.
+2023-06-16 02:24:24.598 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9a657953-b305-4ba5-ab45-420d689aef62 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:24:24.672 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9a657953-b305-4ba5-ab45-420d689aef62 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:24:24.685 [ERR] Connection id "0HMRDUU9TK8QV", Request id "0HMRDUU9TK8QV:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9a657953-b305-4ba5-ab45-420d689aef62 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:25:07.162 [INF] Application is starting...
+2023-06-16 02:27:58.557 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:27:58.561 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:27:58.563 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:27:58.796 [FTL] Path=/simapi/v1/Deneme || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.DenemeController'.
+2023-06-16 02:27:58.856 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 5b5c9a2c-1734-4339-805c-2f68c0def763 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:27:58.931 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 5b5c9a2c-1734-4339-805c-2f68c0def763 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:27:58.943 [ERR] Connection id "0HMRDV0GJJQ2N", Request id "0HMRDV0GJJQ2N:00000003": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 5b5c9a2c-1734-4339-805c-2f68c0def763 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:28:59.776 [INF] Application is starting...
+2023-06-16 02:29:11.957 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:29:11.961 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:29:11.963 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:29:12.203 [FTL] Path=/simapi/v1/Deneme || Method=GET || Exception=Unable to resolve service for type 'SimApi.Operation.Category.ICategoryService' while attempting to activate 'SimApi.Service.DenemeController'.
+2023-06-16 02:29:12.261 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f9f6aa1a-37bb-4549-8162-1ecc6365189f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:29:12.331 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f9f6aa1a-37bb-4549-8162-1ecc6365189f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:29:12.342 [ERR] Connection id "0HMRDV16O64MI", Request id "0HMRDV16O64MI:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f9f6aa1a-37bb-4549-8162-1ecc6365189f and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:34:02.934 [INF] Application is starting...
+2023-06-16 02:34:18.310 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:34:18.321 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:34:18.323 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:34:37.605 [INF] Application is starting...
+2023-06-16 02:35:05.945 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:35:05.949 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:35:05.950 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:37:02.003 [FTL] Path=/simapi/v1/Deneme || Method=POST || Exception=The ConnectionString property has not been initialized.
+2023-06-16 02:37:06.197 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a314bbf6-35c4-4d65-b28e-6b62ecfe2ce8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:37:06.262 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a314bbf6-35c4-4d65-b28e-6b62ecfe2ce8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 02:37:06.276 [ERR] Connection id "0HMRDV4BHCGLR", Request id "0HMRDV4BHCGLR:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a314bbf6-35c4-4d65-b28e-6b62ecfe2ce8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 02:37:33.655 [INF] Application is starting...
+2023-06-16 02:37:53.360 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:37:53.375 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:37:53.380 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:43:36.469 [INF] Application is starting...
+2023-06-16 02:43:49.519 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:43:49.525 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:43:49.527 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:43:50.900 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:43:50.906 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:43:52.278 [INF] -------------Request-Begin------------
+2023-06-16 02:43:52.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+Request Body: 
+2023-06-16 02:43:52.282 [INF] 
+
+2023-06-16 02:43:52.283 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Account 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 02:43:52.285 [INF] -------------Request-End------------
+2023-06-16 02:44:15.881 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:44:15.883 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:44:15.885 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:45:47.479 [INF] Application is starting...
+2023-06-16 02:46:11.763 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:46:11.768 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:46:11.770 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:48:48.276 [INF] Application is starting...
+2023-06-16 02:49:20.841 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:49:20.845 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:49:20.847 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:55:04.678 [INF] Application is starting...
+2023-06-16 02:55:22.631 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:55:22.636 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:55:22.639 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:56:08.654 [INF] Application is starting...
+2023-06-16 02:56:22.803 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:56:22.810 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:56:22.813 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 02:57:03.232 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:57:03.240 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 02:57:03.543 [INF] -------------Request-Begin------------
+2023-06-16 02:57:03.546 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 02:57:03.547 [INF] 
+
+2023-06-16 02:57:03.548 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 02:57:03.550 [INF] -------------Request-End------------
+2023-06-16 02:58:01.171 [INF] Application is starting...
+2023-06-16 02:58:37.168 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 02:58:37.174 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 02:58:37.175 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:13:29.415 [INF] Application is starting...
+2023-06-16 03:13:46.668 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:13:46.674 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:13:46.677 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:15:59.792 [INF] Application is starting...
+2023-06-16 03:16:20.975 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:16:20.979 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:16:20.981 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:19:23.731 [INF] Application is starting...
+2023-06-16 03:19:41.038 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:19:41.044 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:19:41.046 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:24:25.347 [INF] Application is starting...
+2023-06-16 03:24:42.790 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:24:42.797 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:24:42.798 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:30:05.895 [INF] Application is starting...
+2023-06-16 03:30:22.775 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:30:22.779 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:30:22.781 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:31:42.895 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:31:42.901 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:31:43.278 [INF] -------------Request-Begin------------
+2023-06-16 03:31:43.280 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: {"id":0,"name":"string","order":0}
+2023-06-16 03:31:43.281 [INF] 
+
+2023-06-16 03:31:43.282 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 03:31:43.283 [INF] -------------Request-End------------
+2023-06-16 03:31:51.276 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:31:51.277 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:31:51.278 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:32:10.647 [INF] -------------Request-Begin------------
+2023-06-16 03:32:10.648 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 03:32:10.650 [INF] 
+
+2023-06-16 03:32:10.651 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"string","order":0,"id":5}]}
+2023-06-16 03:32:10.653 [INF] -------------Request-End------------
+2023-06-16 03:32:34.551 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:32:34.552 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:32:34.553 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:32:37.644 [INF] -------------Request-Begin------------
+2023-06-16 03:32:37.645 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: {"id":0,"name":"raggabe","order":2}
+2023-06-16 03:32:37.647 [INF] 
+
+2023-06-16 03:32:37.648 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 03:32:37.649 [INF] -------------Request-End------------
+2023-06-16 03:32:48.240 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:32:48.244 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:32:48.246 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:32:51.881 [INF] -------------Request-Begin------------
+2023-06-16 03:32:51.882 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 03:32:51.884 [INF] 
+
+2023-06-16 03:32:51.885 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"string","order":0,"id":5},{"name":"raggabe","order":2,"id":6}]}
+2023-06-16 03:32:51.887 [INF] -------------Request-End------------
+2023-06-16 03:34:24.115 [INF] Application is starting...
+2023-06-16 03:34:45.863 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:34:45.867 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:34:45.869 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:35:17.450 [INF] Application is starting...
+2023-06-16 03:35:37.204 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:35:37.208 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:35:37.211 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:37:16.579 [INF] Application is starting...
+2023-06-16 03:37:41.362 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:37:41.366 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:37:41.368 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:41:15.847 [INF] Application is starting...
+2023-06-16 03:41:30.818 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:41:30.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:41:30.825 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:42:16.953 [INF] Application is starting...
+2023-06-16 03:42:40.896 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:42:40.900 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:42:40.901 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:43:47.086 [INF] Application is starting...
+2023-06-16 03:44:03.158 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:44:03.162 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:44:03.164 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:45:27.217 [INF] Application is starting...
+2023-06-16 03:45:43.479 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:45:43.484 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:45:43.487 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:47:09.086 [INF] Application is starting...
+2023-06-16 03:47:23.379 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:47:23.384 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:47:23.385 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:47:40.643 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:47:40.649 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:47:40.996 [INF] -------------Request-Begin------------
+2023-06-16 03:47:40.998 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: 
+2023-06-16 03:47:40.999 [INF] 
+
+2023-06-16 03:47:41.000 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"string","order":0,"id":5}}
+2023-06-16 03:47:41.002 [INF] -------------Request-End------------
+2023-06-16 03:47:52.945 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:47:52.946 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:47:52.947 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:47:55.153 [INF] -------------Request-Begin------------
+2023-06-16 03:47:55.155 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/6 
+QueryString:  
+Request Body: 
+2023-06-16 03:47:55.156 [INF] 
+
+2023-06-16 03:47:55.157 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"name":"raggabe","order":2,"id":6}}
+2023-06-16 03:47:55.159 [INF] -------------Request-End------------
+2023-06-16 03:48:22.156 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:48:22.159 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:48:22.160 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:48:58.661 [INF] Application is starting...
+2023-06-16 03:49:12.983 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:49:12.991 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:49:12.995 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:49:16.345 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:49:16.352 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:49:16.673 [INF] -------------Request-Begin------------
+2023-06-16 03:49:16.674 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/6 
+QueryString:  
+Request Body: 
+2023-06-16 03:49:16.675 [INF] 
+
+2023-06-16 03:49:16.676 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 03:49:16.678 [INF] -------------Request-End------------
+2023-06-16 03:49:24.334 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:49:24.335 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:49:24.336 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:49:26.946 [INF] -------------Request-Begin------------
+2023-06-16 03:49:26.947 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 03:49:26.949 [INF] 
+
+2023-06-16 03:49:26.950 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"string","order":0,"id":5}]}
+2023-06-16 03:49:26.952 [INF] -------------Request-End------------
+2023-06-16 03:51:04.564 [INF] Application is starting...
+2023-06-16 03:51:13.680 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:51:13.687 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:51:13.689 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:51:20.650 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:51:20.655 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 03:51:20.956 [INF] -------------Request-Begin------------
+2023-06-16 03:51:20.963 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 03:51:20.966 [INF] 
+
+2023-06-16 03:51:20.967 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"string","order":0,"id":5}]}
+2023-06-16 03:51:20.970 [INF] -------------Request-End------------
+2023-06-16 03:52:10.306 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:52:10.307 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:52:10.309 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:56:31.934 [INF] Application is starting...
+2023-06-16 03:57:02.788 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:57:02.792 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:57:02.793 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 03:57:45.571 [FTL] Path=/simapi/v1/Deneme/6 || Method=PUT || Exception=Sequence contains no elements
+2023-06-16 03:57:47.048 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 0781e612-47e2-4514-bc3d-38179df738d6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 03:57:47.225 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 0781e612-47e2-4514-bc3d-38179df738d6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-16 03:57:47.241 [ERR] Connection id "0HMRE0I4AS2MI", Request id "0HMRE0I4AS2MI:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 0781e612-47e2-4514-bc3d-38179df738d6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at SimApi.Service.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at SimApi.Service.Middleware.HeartBeatMiddleware.Invoke(HttpContext context) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi\Middleware\HeartBeatMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-06-16 03:59:41.109 [INF] Application is starting...
+2023-06-16 03:59:58.505 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 03:59:58.511 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 03:59:58.513 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:02:27.853 [INF] Application is starting...
+2023-06-16 04:02:45.599 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:02:45.603 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:02:45.606 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:02:46.091 [INF] -------------Request-Begin------------
+2023-06-16 04:02:46.094 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: 'Sequence contains no elements'
+2023-06-16 04:02:46.094 [INF] 
+
+2023-06-16 04:02:46.095 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-b71393fa0c059e2e5d492402ef597074-1f4eb3ef15dc35fd-00","errors":{"$":["''' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"request":["The request field is required."]}
+2023-06-16 04:02:46.096 [INF] -------------Request-End------------
+2023-06-16 04:03:03.302 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:03:03.304 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:03:03.305 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:03:03.320 [INF] -------------Request-Begin------------
+2023-06-16 04:03:03.321 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: 'Sequence contains no elements'
+2023-06-16 04:03:03.323 [INF] 
+
+2023-06-16 04:03:03.324 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-f9d10da986ac44cd860235856c1b97f4-c79aa0bbb84ae3a6-00","errors":{"$":["''' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"request":["The request field is required."]}
+2023-06-16 04:03:03.326 [INF] -------------Request-End------------
+2023-06-16 04:03:04.214 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:03:04.216 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:03:04.228 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:03:04.244 [INF] -------------Request-Begin------------
+2023-06-16 04:03:04.259 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: 'Sequence contains no elements'
+2023-06-16 04:03:04.261 [INF] 
+
+2023-06-16 04:03:04.262 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-41e80437a076f17698ff4e448cadebcb-dab018fa69e3a5af-00","errors":{"$":["''' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"request":["The request field is required."]}
+2023-06-16 04:03:04.263 [INF] -------------Request-End------------
+2023-06-16 04:03:28.689 [INF] Application is starting...
+2023-06-16 04:03:58.921 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:03:58.924 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:03:58.926 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:05:05.872 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 04:05:05.877 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 04:05:28.685 [INF] -------------Request-Begin------------
+2023-06-16 04:05:28.687 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: {"id":5,"name":"deneme2","order":2}
+2023-06-16 04:05:28.689 [INF] 
+
+2023-06-16 04:05:28.690 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 04:05:28.692 [INF] -------------Request-End------------
+2023-06-16 04:05:38.974 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:05:38.977 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:05:38.978 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:05:42.307 [INF] -------------Request-Begin------------
+2023-06-16 04:05:42.310 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 04:05:42.311 [INF] 
+
+2023-06-16 04:05:42.313 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"deneme2","order":2,"id":5}]}
+2023-06-16 04:05:42.315 [INF] -------------Request-End------------
+2023-06-16 04:06:03.207 [INF] Application is starting...
+2023-06-16 04:06:29.478 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:06:29.482 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:06:29.483 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:07:26.251 [INF] Application is starting...
+2023-06-16 04:07:49.735 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:07:49.741 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:07:49.743 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:10:13.762 [INF] Application is starting...
+2023-06-16 04:10:37.679 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:10:37.684 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:10:37.686 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:13:31.028 [INF] Application is starting...
+2023-06-16 04:13:58.499 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:13:58.504 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:13:58.507 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:20:19.973 [INF] Application is starting...
+2023-06-16 04:20:46.626 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:20:46.632 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:20:46.633 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:21:29.900 [INF] Application is starting...
+2023-06-16 04:21:56.247 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:21:56.252 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:21:56.254 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:24:17.051 [INF] Application is starting...
+2023-06-16 04:24:39.473 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:24:39.480 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:24:39.483 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:25:17.059 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 04:25:17.065 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 04:25:17.386 [INF] -------------Request-Begin------------
+2023-06-16 04:25:17.387 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+Request Body: {"id":5,"name":"raggaoktay","order":0}
+2023-06-16 04:25:17.388 [INF] 
+
+2023-06-16 04:25:17.390 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-06-16 04:25:17.392 [INF] -------------Request-End------------
+2023-06-16 04:25:35.332 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 04:25:35.334 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 04:25:35.351 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 04:25:39.052 [INF] -------------Request-Begin------------
+2023-06-16 04:25:39.053 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+Request Body: 
+2023-06-16 04:25:39.055 [INF] 
+
+2023-06-16 04:25:39.056 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Deneme 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"raggaoktay","order":0,"id":5}]}
+2023-06-16 04:25:39.058 [INF] -------------Request-End------------
+2023-06-16 20:00:30.249 [INF] Application is starting...
+2023-06-16 20:00:46.712 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 20:00:46.719 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 20:00:46.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 20:01:00.281 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 20:01:00.289 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 20:01:00.713 [INF] -------------Request-Begin------------
+2023-06-16 20:01:00.714 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Category 
+QueryString:  
+Request Body: 
+2023-06-16 20:01:00.716 [INF] 
+
+2023-06-16 20:01:00.717 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/Category 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"name":"deneme","order":1,"id":4},{"name":"raggaoktay","order":0,"id":5}]}
+2023-06-16 20:01:00.720 [INF] -------------Request-End------------
+2023-06-16 20:03:37.097 [INF] Application is starting...
+2023-06-16 20:03:58.307 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 20:03:58.313 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 20:03:58.315 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 20:03:59.626 [ERR] GetAll Exception
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1167
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1205
+   at Dapper.SqlMapper.QueryFirst[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 754
+   at SimApi.Data.Repository.DapperTransactionRepository.GetById(Int32 Id) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi.Data\Repository\Transaction\DapperTransactionRepository.cs:line 58
+   at SimApi.Operation.TransactionReportService.GetById(Int32 id) in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi.Operation\Dapper\Transaction\TransactionReportService.cs:line 71
+2023-06-16 20:03:59.801 [INF] -------------Request-Begin------------
+2023-06-16 20:03:59.803 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport/5 
+QueryString:  
+Request Body: 
+2023-06-16 20:03:59.804 [INF] 
+
+2023-06-16 20:03:59.805 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport/5 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Sequence contains no elements","response":null}
+2023-06-16 20:03:59.807 [INF] -------------Request-End------------
+2023-06-16 20:05:07.149 [INF] Application is starting...
+2023-06-16 20:05:20.730 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 20:05:20.735 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 20:05:20.739 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 21:37:59.398 [INF] Application is starting...
+2023-06-16 21:38:19.037 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 21:38:19.041 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 21:38:19.043 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 21:38:48.968 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 21:38:48.976 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 21:38:53.355 [ERR] Failed executing DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[AccountId], [v].[AccountName], [v].[AccountNumber], [v].[Amount], [v].[CreatedAt], [v].[CreatedBy], [v].[CustomerId], [v].[CustomerNumber], [v].[Description], [v].[Direction], [v].[FirstName], [v].[LastName], [v].[ReferenceNumber], [v].[TransactionCode], [v].[TransactionDate], [v].[UpdatedAt], [v].[UpdatedBy]
+FROM [vTransactionReport] AS [v]
+2023-06-16 21:38:53.738 [ERR] An exception occurred while iterating over the results of a query for context type 'SimApi.Data.Context.SimEfDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d79ab5d1-05f2-478a-a6bc-4f712ae57a47
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d79ab5d1-05f2-478a-a6bc-4f712ae57a47
+Error Number:207,State:1,Class:16
+2023-06-16 21:42:37.650 [INF] Application is starting...
+2023-06-16 21:42:56.041 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 21:42:56.069 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 21:42:56.071 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 21:42:59.603 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 21:42:59.824 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 21:43:01.064 [ERR] Failed executing DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[AccountId], [v].[AccountName], [v].[AccountNumber], [v].[Amount], [v].[CreatedAt], [v].[CreatedBy], [v].[CustomerId], [v].[CustomerNumber], [v].[Description], [v].[Direction], [v].[FirstName], [v].[LastName], [v].[ReferenceNumber], [v].[TransactionCode], [v].[TransactionDate], [v].[UpdatedAt], [v].[UpdatedBy]
+FROM [vTransactionReport] AS [v]
+2023-06-16 21:43:01.173 [ERR] An exception occurred while iterating over the results of a query for context type 'SimApi.Data.Context.SimEfDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:2c8e84a3-01d6-4127-8eed-865aa8057cce
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:2c8e84a3-01d6-4127-8eed-865aa8057cce
+Error Number:207,State:1,Class:16
+2023-06-16 21:43:01.244 [ERR] GetAll Exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SimApi.Data.Repository.GenericRepository`1.GetAll() in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi.Data\Repository\Base\GenericRepository.cs:line 30
+   at SimApi.Operation.TransactionReportService.GetAll() in C:\Users\Alihan\Desktop\pk-sim-main\SimApi\SimApi.Operation\Dapper\Transaction\TransactionReportService.cs:line 26
+ClientConnectionId:2c8e84a3-01d6-4127-8eed-865aa8057cce
+Error Number:207,State:1,Class:16
+2023-06-16 21:43:01.333 [INF] -------------Request-Begin------------
+2023-06-16 21:43:01.335 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+Request Body: 
+2023-06-16 21:43:01.339 [INF] 
+
+2023-06-16 21:43:01.340 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid column name 'CreatedAt'.\r\nInvalid column name 'CreatedBy'.\r\nInvalid column name 'UpdatedAt'.\r\nInvalid column name 'UpdatedBy'.","response":null}
+2023-06-16 21:43:01.342 [INF] -------------Request-End------------
+2023-06-16 22:29:57.499 [INF] Application is starting...
+2023-06-16 22:48:58.739 [INF] Application is starting...
+2023-06-16 22:49:12.842 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 22:49:12.852 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 22:49:12.855 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 22:49:33.470 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 22:49:33.483 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 22:49:35.504 [ERR] Failed executing DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[AccountId], [v].[AccountName], [v].[AccountNumber], [v].[Amount], [v].[CreatedAt], [v].[CreatedBy], [v].[CustomerId], [v].[CustomerNumber], [v].[Description], [v].[Direction], [v].[FirstName], [v].[LastName], [v].[ReferenceNumber], [v].[TransactionCode], [v].[TransactionDate], [v].[UpdatedAt], [v].[UpdatedBy]
+FROM [vTransactionReport] AS [v]
+2023-06-16 22:49:35.593 [ERR] An exception occurred while iterating over the results of a query for context type 'SimApi.Data.Context.SimEfDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:8ef46387-43a4-40ea-b973-662c7eafabec
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedAt'.
+Invalid column name 'CreatedBy'.
+Invalid column name 'UpdatedAt'.
+Invalid column name 'UpdatedBy'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:8ef46387-43a4-40ea-b973-662c7eafabec
+Error Number:207,State:1,Class:16
+2023-06-16 22:51:42.479 [INF] Application is starting...
+2023-06-16 22:52:17.888 [INF] LogHeartBeatMiddleware.Invoke
+2023-06-16 22:52:17.894 [INF] LogErrorHandlerMiddleware.Invoke
+2023-06-16 22:52:17.896 [INF] LogRequestLoggingMiddleware.Invoke
+2023-06-16 22:52:38.158 [WRN] The 'bool' property 'IsValid' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 22:52:38.166 [WRN] The 'bool' property 'IsValid' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-06-16 22:52:50.437 [INF] -------------Request-Begin------------
+2023-06-16 22:52:50.446 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+Request Body: 
+2023-06-16 22:52:50.447 [INF] 
+
+2023-06-16 22:52:50.448 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:7235 
+Path: /simapi/v1/TransactionReport 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-06-16 22:52:50.452 [INF] -------------Request-End------------
